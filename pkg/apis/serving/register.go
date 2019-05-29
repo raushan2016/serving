@@ -70,6 +70,9 @@ const (
 
 	queueName = "queue.sidecar."
 
+	// QueueSideCarResourcePercentageAnnotation is the percentage of user container resources to be used for queue-proxy
+	QueueSideCarResourcePercentageAnnotation = queueName + GroupName + "/resourcePercentage"
+
 	// QueueSideCarRequestCPUAnnotation is the request.cpu of the queue proxy side car
 	QueueSideCarRequestCPUAnnotation = queueName + GroupName + "/requestCPU"
 
